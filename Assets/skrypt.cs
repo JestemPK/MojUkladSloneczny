@@ -62,9 +62,6 @@ public class NewBehaviourScript : MonoBehaviour
             transform.Rotate(0f, 0.1f, 0f, Space.Self);
         }
 
-
-
-
             if (gameObject.CompareTag("Rakieta"))
         {
             if (Input.GetKeyDown(KeyCode.Alpha1)) // Wacza Virtual Camera 1
@@ -91,7 +88,7 @@ public class NewBehaviourScript : MonoBehaviour
                 rakietaStart = 0; //aktywowanie rakiety
             }
 
-            if (Input.GetKeyDown(KeyCode.JoystickButton0)) // Wacza Virtual Camera 1 PAD
+            if (Input.GetKeyDown(KeyCode.JoystickButton1)) // Wacza Virtual Camera 1 PAD
             {
                 Kamera1.Priority = 10;
                 Kamera2.Priority = 5;
@@ -138,7 +135,7 @@ public class NewBehaviourScript : MonoBehaviour
 
                 rakietaStart = 1; //aktywowanie rakiety TU
             }
-            if (Input.GetKeyDown(KeyCode.JoystickButton1)) // Wacza Virtual Camera 2 PAD
+            if (Input.GetKeyDown(KeyCode.JoystickButton0)) // Wacza Virtual Camera 2 PAD
             {
                 Kamera1.Priority = 5;
                 Kamera2.Priority = 10;
@@ -184,7 +181,7 @@ public class NewBehaviourScript : MonoBehaviour
 
                 rakietaStart = 0; //aktywowanie rakiety
             }
-            if (Input.GetKeyDown(KeyCode.JoystickButton2)) // Wacza Virtual Camera 3 PAD
+            if (Input.GetKeyDown(KeyCode.JoystickButton3)) // Wacza Virtual Camera 3 PAD
             {
                 Kamera1.Priority = 5;
                 Kamera2.Priority = 5;
@@ -230,7 +227,7 @@ public class NewBehaviourScript : MonoBehaviour
 
                 rakietaStart = 0; //aktywowanie rakiety
             }
-            if (Input.GetKeyDown(KeyCode.JoystickButton3)) // Wacza Virtual Camera 4 PAD
+            if (Input.GetKeyDown(KeyCode.JoystickButton2)) // Wacza Virtual Camera 4 PAD
             {
                 Kamera1.Priority = 5;
                 Kamera2.Priority = 5;
