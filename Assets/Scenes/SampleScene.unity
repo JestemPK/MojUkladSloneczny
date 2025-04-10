@@ -3487,7 +3487,7 @@ MonoBehaviour:
 
 
 
-    PRZYCISKI NA PADZIE'
+    PRZYCISKI NA PADZIE (PlayStation)'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5972,7 +5972,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "1 - Ta kamera\n2 - Kamera z g\xF3ry\n3 - Kamera na ziemie z obrotem\n4
-    - Kamera na s\u0142o\u0144ce z obrotem\n5 - Realne ozmiary planet\n\n\n\n\n\nF5
+    - Kamera na s\u0142o\u0144ce z obrotem\n5 - Realne rozmiary planet\n\n\n\n\n\nF5
     - Restart\nEsc - Wyj\u015Bcie"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
